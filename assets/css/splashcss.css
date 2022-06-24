@@ -1,6 +1,6 @@
 html{
   height:100%;
-  background: #000000 url(/assets/img/nfs.gif);
+  background: #000000 url(../img/nfs.gif);
   /* background-size: contain; */
       background-repeat: no-repeat;
       background-position: center;

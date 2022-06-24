@@ -23,10 +23,10 @@
 		background-color: rgba(0,0,0,0);
 	}
 	
-	.flexbox #cspio-page{
+	/* .flexbox #cspio-page{
 		align-items: center;
 		justify-content: center;
-	}
+	} */
 
 	.cspio body{
 		background: transparent;
@@ -43,7 +43,7 @@
 
 
     .cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
-        font-family: 'Pacifico';
+        /* font-family: 'Pacifico'; */
         color:#ffffff;
     }
 
@@ -51,7 +51,7 @@
 		/* font-family: 'Pacifico'; */
 		font-family: 'Frank Ruhl Libre', serif;
 		font-weight: 800;
-		font-size: 48px;
+		font-size: 40px;
 		color:#ffffff;
 		line-height: 1.00em;
 	}

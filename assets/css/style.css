@@ -2,6 +2,7 @@
 	html {
 		height: 100%;
 		overflow: hidden;
+		scroll-behavior: smooth;
 	}
 
 	body {
@@ -12,8 +13,8 @@
 	
 	html{
 		height:100%;
-		background: #000000 url(../img/bg.png);
-		/* background-size: contain; */
+		background: #000000 url(../img/bg2.png);
+		background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
         overflow: auto;
@@ -75,5 +76,3 @@
 	#cspio-socialprofiles a:hover {
 		color: #cf9f3a;
 	}
-
-

@@ -13,3 +13,36 @@
   /* opacity: 0.9; */
   height: 100vh;
 }
+
+/* 2nd hero */
+.second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second {
+  background-image: url("../img/bg2.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: auto;
+  /* opacity: 0.9; */
+  height: 100vh;
+}
+/* 3rd hero */
+.third{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third {
+  background-image: url("../img/bg3.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: auto;
+  /* opacity: 0.9; */
+  height: 100vh;
+}

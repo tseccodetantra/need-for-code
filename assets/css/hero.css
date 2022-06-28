@@ -4,6 +4,18 @@
   align-items: center;
 }
 
+.empty{
+  padding:0px;
+}
+@media (max-width: 500px) {
+  .empty{
+    padding:40px;
+  }
+  .home,.second,.third {
+  
+    height: 200vh;
+  }
+}
 .home {
   background-image: url("../img/bg.png");
   background-size:cover;

@@ -15,7 +15,7 @@
         <meta property="og:url" content="" />
         <meta property="og:type" content="website" />
         
-  {% assign image = "https://raw.githubusercontent.com/tseccodetantra/need-for-code/main/assets/img/CodeTantraTrans.png" %}
+  <!-- {% assign image = "https://raw.githubusercontent.com/tseccodetantra/need-for-code/main/assets/img/CodeTantraTrans.png" %} -->
         <meta name="og:image" content="{{ image }}">
         <meta property="og:description" content="" />
         <meta property="og:image" href="./assets/img/nfs.png" />
@@ -39,7 +39,7 @@
         <link rel="stylesheet" href="./assets/css/hero.css">
         <link rel="stylesheet" href="./assets/css/cards.css">
         <link rel="stylesheet" href="./assets/css/nfclogo.css">
-        <link rel="stylesheet" href="./assets/css/w3.css">
+        <link rel="stylesheet" href="./assets/css/timer.css">
         
         <!-- OUR JS -->
         <script src="./assets/js/navbar.js"></script>
@@ -75,7 +75,6 @@
         </div>
         <div class="home" id="home">
             <div id="cspio-content">
-              
                 <!-- <img id="cspio-logo" src="./assets/img/translogo.png" height="15%" width="15%"> --> 
                     <h1 id="cspio-headline">Code<font color="#cf9f3a">Tantra</font></h1>		
                     <div id="cspio-description">Presents</div>		
@@ -86,10 +85,10 @@
                     <div>Registration Starts In</div>
                     <center>
                     <div class="flex-container">
-                        <div style="background-color: #cf9f3a;" id="days" class="flex-item-right"></div>
-                        <div style="background-color: #cf9f3a;" id="hours" class="flex-item-right"></div>
-                        <div style="background-color: #cf9f3a;" id="minutes" class="flex-item-right"></div>  
-                        <div style="background-color: #cf9f3a;" id="seconds" class="flex-item-right"></div>
+                        <div  id="days" class="flex-item-right"></div>
+                        <div  id="hours" class="flex-item-right"></div>
+                        <div  id="minutes" class="flex-item-right"></div>  
+                        <div  id="seconds" class="flex-item-right"></div>
                     </div>        
                 </center>                      
                 </div>
@@ -100,9 +99,29 @@
                   <div style="padding:40px;" id="about"></div>
                       <br>
                       <CENTER>
+                        <div class="flex-container" >
+                         <div class="card" >
+                           <img class="cardimg" src="./assets/img/goddess/about3.png" alt="Web/App" width= "98%" height="98%">
+                           <h3></h3>
+                         </div>
+                         <div  class="card" >
+                           <!-- <img class="cardimg" src="./assets/img/goddess/aiml.png" alt="AIML" width= "80%" height="80%"> -->
+                           <div class="cardtextolor" >
+                            <h1 id="cspio-headline">Details</h1>
+                            <h1 id="cspio-headline">About the Hackathon</h1>
+                              <h2 id="cspio-headline2">Need for Code is the first iteration of annual in-person 24-hour offline hackathon, conducted in Thadomal Shahani Engineering College, Bandra West by TSEC CodeTantra.</h2>
+                            
+                           </div>
+                         </div>
+                         
+                       
+                        
+                       
+               </CENTER>   
+                      <!-- <CENTER>
                           <div class="flex-container">
                             <div style="background-color: transparent">
-                              <img src="./assets/img/about.png" alt="About" width= "50%" height="50%">
+                              <img src="./assets/img/goddess/about.png" alt="About">
                             
                             </div>
                             <div style="background-color: black; ">
@@ -111,7 +130,7 @@
                             </div>
                             
                           
-                  </CENTER>     
+                  </CENTER>      -->
                   
                   </div>
               </div>
@@ -122,6 +141,42 @@
                   <div style="padding:40px;" id="details"></div>
                       <br>
                       <CENTER>
+                        <div class="flex-container" >
+                         
+                         <div  class="card" >
+                           <!-- <img class="cardimg" src="./assets/img/goddess/aiml.png" alt="AIML" width= "80%" height="80%"> -->
+                           <div class="cardtextolor" >
+                            <h1 id="cspio-headline">Details</h1>
+                            <h3 style="text-align: left;">
+                              
+                                <ul>
+                                  <li>Date: 29th and 30th July</li>
+                                  <li>Team Size: 2 to 4 Members</li>
+                                  <li>3 Exciting Domains</li>
+                                  <li>Offline hackathon</li>
+                                  <li>More Information Coming Soon!</li>
+                                </ul>
+
+                                Follow us For More:<br><br>
+                              </h3>
+                                <div id="cspio-socialprofiles" style="text-align: center;">
+                                  <a href="https://www.instagram.com/tseccodetantra/" target="_blank"><i class="fa fa-instagram "></i></a>			
+                                  <a href="https://www.linkedin.com/company/tsec-codetantra" target="_blank"><i class="fa fa-linkedin "></i></a>			
+                                  <a href="https://twitter.com/TSECCodeTantra" target="_blank"><i class="fa fa-twitter "></i></a>
+                                  <a href="https://github.com/tseccodetantra" target="_blank"><i class="fa fa-github "></i></a>			
+                                </div>
+                           </div>
+                         </div>
+                         <div class="card" >
+                          <img class="cardimg" src="./assets/img/goddess/about4.png" alt="Web/App" width= "80%" height="80%">
+                          <h3></h3>
+                        </div>
+                         
+                       
+                        
+                       
+               </CENTER>     
+                      <!-- <CENTER>
                           <div class="flex-container">
                             <div style="background-color: black; width: 100%;" >
                               <h1 id="cspio-headline">Details</h1>
@@ -146,12 +201,12 @@
                               
                             </div>
                             <div style="background-color: transparent">
-                              <img src="./assets/img/about2.png" alt="Criteria" width= "50%" height="50%">
+                              <img src="./assets/img/goddess/about.png" alt="Criteria" >
                             </div>
                             
                             
                           
-                  </CENTER>     
+                  </CENTER>      -->
                   
                   </div>
               </div>
@@ -164,25 +219,22 @@
                     <CENTER>
                          <div class="flex-container" >
                           <div class="card" >
-                            <img src="./assets/img/web.png" alt="Web/App" width= "60%" height="60%">
+                            <img class="cardimg" src="./assets/img/goddess/web.png" alt="Web/App" width= "80%" height="80%">
                             <div class="cardtextolor" >
-                              <br><br>
-                              <p  class="cardtextolor">Web/App Development</p>
+                              <h3  class="cardtextolor">Web/App Development</h3>
                             </div>
                           </div>
                           <div  class="card" >
-                            <img src="./assets/img/aiml.png" alt="AIML" width= "60%" height="60%">
+                            <img class="cardimg" src="./assets/img/goddess/aiml.png" alt="AIML" width= "80%" height="80%">
                             <div class="cardtextolor" >
-                              <br><br>
-                              <p class="cardtextolor">AI/ML</p>
+                              <h3 class="cardtextolor">AI/ML</h3>
                             </div>
                           </div>
                           
                           <div class="card">
-                            <img src="./assets/img/social.png" alt="Social" width= "60%" height="60%">
+                            <img class="cardimg" src="./assets/img/goddess/sc.png" alt="Social" width= "80%" height="80%">
                             <div class="cardtextolor" >
-                              <br><br>
-                              <p >Social Cause</p>
+                              <h3 >Social Cause</h3>
                             </div>
                           </div>
                           
@@ -224,8 +276,13 @@
                     <h1 id="cspio-headline">Prizes</h1>
                     <br>
                     <CENTER>
-                      <img src="./assets/img/prizes.png" alt="Criteria" width= "20%" height="20%">
-                        <h3>Prizes will be annouced soon</h3>
+                      <div class="flex-container" >
+                        <div class="card" >
+                          <img class="cardimg" src="./assets/img/goddess/prizes.png" alt="Web/App" width= "50%" height="50%">
+                          <h3>Prizes will be annouced soon</h3>
+                        </div>
+                      <!-- <img src="./assets/img/prizes.png" alt="Criteria" width= "20%" height="20%">
+                        <h3>Prizes will be annouced soon</h3> -->
                           
                         
                 </CENTER>     

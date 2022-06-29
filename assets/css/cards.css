@@ -1,0 +1,13 @@
+.card{
+    background-color: black;
+    top: 0;
+  transition: top ease 0.5s;
+}
+
+.cardtextolor{
+    color: black;
+}
+.card:hover{
+    background-color: black;
+    top: -10px;
+}

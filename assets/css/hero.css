@@ -58,3 +58,19 @@
   /* opacity: 0.9; */
   height: 100vh;
 }
+/* 4th hero */
+.four{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four {
+  background-image: url("../img/bg4.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: auto;
+  /* opacity: 0.9; */
+  height: 100vh;
+}

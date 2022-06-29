@@ -56,6 +56,14 @@
 		color:#ffffff;
 		line-height: 1.00em;
 	}
+	#cspio-headline2{
+		/* font-family: 'Pacifico'; */
+		font-family: 'Frank Ruhl Libre', serif;
+		font-weight: 400;
+		font-size: 30px;
+		color:#ffffff;
+		line-height: 1.00em;
+	}
 
 	.cspio button{
         background-color: #3770fe;

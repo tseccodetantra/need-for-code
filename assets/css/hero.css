@@ -74,3 +74,14 @@
   /* opacity: 0.9; */
   height: 100vh;
 }
+@media (max-width: 500px) {
+  .four{ 
+  height: 150vh;
+  }
+  .second{ 
+    height: 175vh;
+    }
+    .home{ 
+      height: 125vh;
+      }
+}

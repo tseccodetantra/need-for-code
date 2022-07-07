@@ -10,6 +10,13 @@
 		overflow: auto;
 		-webkit-overflow-scrolling: touch;
 	}
+
+	.cntact{
+		color: white;
+	}
+	.cntact:hover{
+		color: #cf9f3a;
+	}
 	
 	html{
 		height:100%;

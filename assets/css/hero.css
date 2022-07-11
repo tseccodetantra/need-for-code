@@ -25,7 +25,22 @@
   /* opacity: 0.9; */
   height: 100vh;
 }
+/* 2nd hero */
+.ssecond{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.ssecond {
+  background-image: url("../img/bg2.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: auto;
+  /* opacity: 0.9; */
+  height: 175vh;
+}
 /* 2nd hero */
 .second{
   display: flex;
@@ -81,6 +96,9 @@
   .second{ 
     height: 175vh;
     }
+    .ssecond{ 
+      height: 200vh;
+      }
     .home{ 
       height: 125vh;
       }

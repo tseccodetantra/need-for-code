@@ -108,3 +108,23 @@
 	#cspio-socialprofiles a:hover {
 		color: #cf9f3a;
 	}
+
+	.sponsors-logo {
+		padding: 40px;
+		justify-content: center;
+		width: 100%;
+
+	}
+
+	.container {
+		justify-content: center;
+	}
+
+	.section-title-header {
+		padding: 70px;
+	}
+
+	#sponsor-heading {
+		font-style: bold;
+		color:#cf9f3a
+	  }
